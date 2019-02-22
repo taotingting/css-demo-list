@@ -40,6 +40,11 @@ export default new Router({
       path: '/css4',
       name: 'css4',
       component: () => import(/* webpackChunkName: "about" */ './views/css4.vue')
+    },
+    {
+      path: '/css5',
+      name: 'css5',
+      component: () => import(/* webpackChunkName: "about" */ './views/css5.vue')
     }
   ]
 })

@@ -37,10 +37,8 @@
     height: 100px;
     background: red;
     // 可以用 伪元素 绝对定位
-    box-shadow: 1px 0 #f6f6f6;
-    // &:last-child{
-    //   box-shadow: 0 1px #f6f6f6;
-    // }
+    //这里只用 偏移 在有背景色的情况下会被这户 但是模糊度可以显示出来，，，不懂
+    box-shadow: 1px 0 2px 1px #f6f6f6;
   }
 }
 </style>
