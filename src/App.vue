@@ -6,7 +6,8 @@
       <router-link to="/css2">圣杯</router-link> |
       <router-link to="/css3">flex</router-link> |
       <router-link to="/css4">阴影</router-link> |
-      <router-link to="/css5">group-list</router-link>
+      <router-link to="/css5">group-list</router-link> |
+      <router-link to="/css6">仿word的table</router-link>
     </div>
     <router-view/>
   </div>

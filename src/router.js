@@ -45,6 +45,11 @@ export default new Router({
       path: '/css5',
       name: 'css5',
       component: () => import(/* webpackChunkName: "about" */ './views/css5.vue')
+    },
+    {
+      path: '/css6',
+      name: 'css6',
+      component: () => import(/* webpackChunkName: "about" */ './views/css6.vue')
     }
   ]
 })
